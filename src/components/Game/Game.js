@@ -26,6 +26,19 @@ class Game extends Component {
 
   
   render() {
+    function shuffle (chihuahuas) {
+      var i = 0
+        , j = 0
+        , temp = null
+    
+      for (i = chihuahuas.length - 1; i > 0; i -= 1) {
+        j = Math.floor(Math.random() * (i + 1))
+        temp = chihuahuas[i]
+        chihuahuas[i] = chihuahuas[j]
+        chihuahuas[j] = temp
+      }
+    }
+
     return (
       <div className="container">
           <p>Random Number: {this.state.randomNumber}</p>
