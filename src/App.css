@@ -1,28 +1,36 @@
-.App {
-  text-align: center;
+/* font-family: 'Francois One', sans-serif; */
+/* font-family: 'Cookie', cursive; */
+/* font-family: 'Oleo Script', cursive; */
+* {
+  font-family: 'Tenor Sans', sans-serif;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+body {
+  background-size: 100%;
+  font-family: 'Cookie', cursive;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.cupcake-score {
+  color: gray
 }
 
-.App-title {
-  font-size: 1.5em;
+.jumbotron {
+  height: 200px;
+  opacity: .55;
 }
 
-.App-intro {
-  font-size: large;
+h1 {
+  font-family: 'Oleo Script', cursive;
+  font-size: 60px;
+
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.cupcake {
+  float: left;
+  width: 150px;
+  /* height: 145px; */
+}
+
+.img-thumbnail {
+  cursor: pointer;
 }

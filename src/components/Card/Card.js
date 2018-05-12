@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
-import "./Card.css"
+import React from "react";
+import {Image} from "react-bootstrap";
+// import "./Card.css";
 
-const Card = (props) => (
-<div className="col-sm-4 chi-card" onClick={() => props.cardClickedOn(props.id)}>
-    <img src={props.image}/>
-    <p>{props.name}</p>
-</div>
+const Card = props => (
+  <div className="cupcake col-md-10">
+  	<a onClick={() => props.click(props.name)}>
+    	<Image src={props.source} alt={props.name} thumbnail/>
+    </a>
+  </div>
 );
 
 export default Card;

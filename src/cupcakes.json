@@ -1,0 +1,50 @@
+[
+	{
+		"name": "cupcake01",
+		"source": "/assets/images/cupcake01.png"
+	},
+	{
+		"name": "cupcake02",
+		"source": "/assets/images/cupcake02.png"
+	},
+	{
+		"name": "cupcake03",
+		"source": "/assets/images/cupcake03.png"
+	},
+	{
+		"name": "cupcake04",
+		"source": "/assets/images/cupcake04.png"
+	},
+	{
+		"name": "cupcake05",
+		"source": "/assets/images/cupcake05.png"
+	},
+	{
+		"name": "cupcake06",
+		"source": "/assets/images/cupcake06.png"
+	},
+	{
+		"name": "cupcake07",
+		"source": "/assets/images/cupcake07.png"
+	},
+	{
+		"name": "cupcake08",
+		"source": "/assets/images/cupcake08.png"
+	},
+	{
+		"name": "cupcake09",
+		"source": "/assets/images/cupcake09.png"
+	},
+	{
+		"name": "cupcake10",
+		"source": "/assets/images/cupcake10.png"
+	},
+	{
+		"name": "cupcake11",
+		"source": "/assets/images/cupcake11.png"
+	},
+	{
+		"name": "cupcake12",
+		"source": "/assets/images/cupcake12.png"
+	}
+]
